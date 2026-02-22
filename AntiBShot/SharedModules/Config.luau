@@ -14,8 +14,8 @@ Config.Penalty = {
 	
 	KillCooldown = 1,
 	KillsBeforeBan = 3,
-	TempBanMinutes = 1,
-	PermBanAfter = 3,
+	TempBanMinutes = 10,
+	PermBanAfter = 15, -- Higher number in case of false-positives.
 	KickPenalty = false,
 	BanPenalty = false, 
 	
@@ -23,7 +23,7 @@ Config.Penalty = {
 
 Config.DataStore = {
 	
-	DataStoreName = "AntiBShotTB12",
+	DataStoreName = "AntiBShotTB12", -- If you rename this, the data will be reset.
 	
 }
 
@@ -38,8 +38,8 @@ Config.DebugVisual = {
 
 Config.KickMessages = {
 	
-	Permanent = "[AntiBShot]: Permanent banned, repeated backshot abuse.",
-	TempBan = "[AntiBShot]: What you tryna do :/? You received a temporary ban for %d minutes",
+	Permanent = "[AntiBShot]: Your account has been permanently suspended from this experience due to repeated violations of our fair play policy (Backshot Abuse).",
+	TempBan = "[AntiBShot]: Unusual activity detected. You have been issued a temporary suspension for %d minute(s). Please ensure your gameplay adheres to the community guidelines.",
 	
 }
 
